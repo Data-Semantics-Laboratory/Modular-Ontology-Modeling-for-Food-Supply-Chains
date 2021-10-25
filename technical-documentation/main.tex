@@ -1,0 +1,32 @@
+\documentclass[11pt,oneside, letterpaper]{memoir}
+
+\input{preamble}
+\sloppy
+
+\counterwithin*{equation}{section}
+
+\begin{document}
+
+\frontmatter
+\begin{titlingpage}
+  \titleBWF
+\end{titlingpage}
+
+{\small
+\tableofcontents{}
+\newpage
+\listoffigures{}
+}
+
+\mainmatter
+
+\input{introduction}
+\input{guide}
+\input{modules}
+\input{ontology}
+\input{openissues}
+
+\bibliographystyle{apalike}
+\bibliography{lit}
+
+\end{document}
