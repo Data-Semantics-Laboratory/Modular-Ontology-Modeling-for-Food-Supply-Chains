@@ -1,4 +1,5 @@
-@prefix : <http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#> .
+@prefix : <http://dase.cs.ksu.edu/ontology/food-traceability#> .
+@prefix fto: <http://dase.cs.ksu.edu/ontology/food-traceability#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -6,9 +7,9 @@
 @prefix opla: <http://ontologydesignpatterns.org/opla#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix opla-sd: <http://ontologydesignpatterns.org/opla-sd#> .
-@base <http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420> .
+@base <http://dase.cs.ksu.edu/ontology/food-traceability> .
 
-<http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420> rdf:type owl:Ontology .
+<http://dase.cs.ksu.edu/ontology/food-traceability> rdf:type owl:Ontology .
 
 #################################################################
 #    Annotation properties
@@ -30,837 +31,942 @@ opla-sd:entityPositionY rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#assumesRole
-:assumesRole rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#assumesRole
+fto:assumesRole rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#consistsOf
-:consistsOf rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#consistsOf
+fto:consistsOf rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#fallsWithin
-:fallsWithin rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#fallsWithin
+fto:fallsWithin rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#follows
-:follows rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#follows
+fto:follows rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasContainee
-:hasContainee rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasContainee
+fto:hasContainee rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasContainer
-:hasContainer rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasContainer
+fto:hasContainer rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasContainerType
-:hasContainerType rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf owl:topObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasContainerType
+fto:hasContainerType rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasFix
-:hasFix rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasFix
+fto:hasFix rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasFurtherDocumentation
-:hasFurtherDocumentation rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasFurtherDocumentation
+fto:hasFurtherDocumentation rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasIdentifier
-:hasIdentifier rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasIdentifier
+fto:hasIdentifier rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasIdentifierEncoding
-:hasIdentifierEncoding rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasIdentifierEncoding
+fto:hasIdentifierEncoding rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasIdentifierEncodingScheme
-:hasIdentifierEncodingScheme rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasIdentifierEncodingScheme
+fto:hasIdentifierEncodingScheme rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasIdentifierSource
-:hasIdentifierSource rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasIdentifierSource
+fto:hasIdentifierSource rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasIdentifierType
-:hasIdentifierType rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasIdentifierType
+fto:hasIdentifierType rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasMeasurement
-:hasMeasurement rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasMeasurement
+fto:hasMeasurement rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasMeasurementType
-:hasMeasurementType rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasMeasurementType
+fto:hasMeasurementType rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasNext
-:hasNext rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasNext
+fto:hasNext rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasPostcondition
-:hasPostcondition rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf owl:topObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasPostcondition
+fto:hasPostcondition rdf:type owl:ObjectProperty ;
+                     rdfs:subPropertyOf owl:topObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasPrecondition
-:hasPrecondition rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasPrecondition
+fto:hasPrecondition rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasSTE
-:hasSTE rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasSTE
+fto:hasSTE rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasTemporalExtent
-:hasTemporalExtent rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasTemporalExtent
+fto:hasTemporalExtent rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasUnit
-:hasUnit rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasUnit
+fto:hasUnit rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasValue
-:hasValue rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasValue
+fto:hasValue rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#occursAt
-:occursAt rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#occursAt
+fto:occursAt rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#ofMaterialType
-:ofMaterialType rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#ofMaterialType
+fto:ofMaterialType rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#ofStuffType
-:ofStuffType rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#ofStuffType
+fto:ofStuffType rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#partOf
-:partOf rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#partOf
+fto:partOf rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#predecessorOf
-:predecessorOf rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf :predecessorOf ;
-               rdf:type owl:IrreflexiveProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#predecessorOf
+fto:predecessorOf rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf fto:predecessorOf ;
+                  rdf:type owl:IrreflexiveProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#producedAt
-:producedAt rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#producedAt
+fto:producedAt rdf:type owl:ObjectProperty .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#providesRole
-:providesRole rdf:type owl:ObjectProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#providesRole
+fto:providesRole rdf:type owl:ObjectProperty .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#hasStringRepresentation
-:hasStringRepresentation rdf:type owl:DatatypeProperty .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#hasStringRepresentation
+fto:hasStringRepresentation rdf:type owl:DatatypeProperty .
 
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Agent
-:Agent rdf:type owl:Class .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Agent
+fto:Agent rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#BeingObservedRole
-:BeingObservedRole rdf:type owl:Class ;
-                   rdfs:subClassOf :ParticipantRole ;
-                   opla:isNativeTo "ObservationEvent"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#BeingObservedRole
+fto:BeingObservedRole rdf:type owl:Class ;
+                      rdfs:subClassOf fto:ParticipantRole ;
+                      opla:isNativeTo "ObservationEvent"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#BeingShippedRole
-:BeingShippedRole rdf:type owl:Class ;
-                  rdfs:subClassOf :ParticipantRole ;
-                  opla:isNativeTo "TransportEvent"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#BeingShippedRole
+fto:BeingShippedRole rdf:type owl:Class ;
+                     rdfs:subClassOf fto:ParticipantRole ;
+                     opla:isNativeTo "TransportEvent"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#ContainedInRelation
-:ContainedInRelation rdf:type owl:Class ;
-                     rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasContainee ;
-                                       owl:someValuesFrom owl:Thing
+###  http://dase.cs.ksu.edu/ontology/food-traceability#ContainedInRelation
+fto:ContainedInRelation rdf:type owl:Class ;
+                        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasContainee ;
+                                          owl:someValuesFrom owl:Thing
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasContainer ;
+                                          owl:someValuesFrom owl:Thing
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasTemporalExtent ;
+                                          owl:someValuesFrom fto:TemporalExtent
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasContainee ;
+                                          owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                          owl:onClass [ rdf:type owl:Class ;
+                                                        owl:unionOf ( fto:Container
+                                                                      fto:TRU
+                                                                    )
+                                                      ]
+                                        ] ;
+                        opla:isNativeTo "Container"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Container
+fto:Container rdf:type owl:Class ;
+              rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                owl:onProperty fto:follows ;
+                                owl:someValuesFrom fto:Trajectory
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty fto:hasContainerType ;
+                                owl:someValuesFrom fto:ContainerType
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty fto:hasIdentifier ;
+                                owl:someValuesFrom fto:Identifier
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty fto:follows ;
+                                owl:allValuesFrom fto:Trajectory
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty fto:hasIdentifier ;
+                                owl:allValuesFrom fto:Identifier
+                              ] ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty fto:assumesRole ;
+                                owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                owl:onClass fto:ParticipantRole
+                              ] ;
+              opla:isNativeTo "Container"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#ContainerType
+fto:ContainerType rdf:type owl:Class ;
+                  opla:isNativeTo "Container"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#CustodyChangeEvent
+fto:CustodyChangeEvent rdf:type owl:Class ;
+                       rdfs:subClassOf fto:Event ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:hasSTE ;
+                                         owl:someValuesFrom fto:SpatialtemporalExtent
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:providesRole ;
+                                         owl:someValuesFrom [ owl:intersectionOf ( fto:SourceCustodianRole
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                    ] ;
+                                                                                     owl:someValuesFrom fto:Agent
+                                                                                   ]
+                                                                                 ) ;
+                                                              rdf:type owl:Class
+                                                            ]
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:providesRole ;
+                                         owl:someValuesFrom [ owl:intersectionOf ( fto:TargetCustodianRole
+                                                                                   [ rdf:type owl:Restriction ;
+                                                                                     owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                    ] ;
+                                                                                     owl:someValuesFrom fto:Agent
+                                                                                   ]
+                                                                                 ) ;
+                                                              rdf:type owl:Class
+                                                            ]
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:hasFurtherDocumentation ;
+                                         owl:allValuesFrom fto:DocumentationSource
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:providesRole ;
+                                         owl:allValuesFrom fto:ParticipantRole
+                                       ] ;
+                       opla:isNativeTo "Event"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#DocumentationSource
+fto:DocumentationSource rdf:type owl:Class ;
+                        opla:isNativeTo "Event"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#EquipmentRole
+fto:EquipmentRole rdf:type owl:Class ;
+                  rdfs:subClassOf fto:ParticipantRole .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Event
+fto:Event rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:hasSTE ;
+                            owl:someValuesFrom fto:SpatialtemporalExtent
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:providesRole ;
+                            owl:someValuesFrom fto:ParticipantRole
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:hasFurtherDocumentation ;
+                            owl:allValuesFrom fto:DocumentationSource
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:providesRole ;
+                            owl:allValuesFrom fto:ParticipantRole
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:hasPostcondition ;
+                            owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                            owl:onClass fto:ContainedInRelation
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:hasPrecondition ;
+                            owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                            owl:onClass fto:ContainedInRelation
+                          ] ;
+          opla:isNativeTo "Event"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Fix
+fto:Fix rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:occursAt ;
+                          owl:someValuesFrom fto:Place
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:occursAt ;
+                          owl:someValuesFrom fto:Time
+                        ] ;
+        opla:isNativeTo "Trajectory"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Identifier
+fto:Identifier rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty fto:hasIdentifierEncoding ;
+                                 owl:someValuesFrom fto:IdentifierEncoding
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty fto:hasIdentifierEncoding ;
+                                 owl:allValuesFrom fto:IdentifierEncoding
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty fto:hasIdentifierType ;
+                                 owl:allValuesFrom fto:IdentifierType
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty [ owl:inverseOf fto:hasIdentifier
+                                                ] ;
+                                 owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty fto:hasStringRepresentation ;
+                                 owl:someValuesFrom xsd:string
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty fto:hasStringRepresentation ;
+                                 owl:allValuesFrom xsd:string
+                               ] ;
+               opla:isNativeTo "Identifier"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#IdentifierEncoding
+fto:IdentifierEncoding rdf:type owl:Class ;
+                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:hasIdentifierSource ;
+                                         owl:someValuesFrom fto:IdentifierSource
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:hasIdentifierEncodingScheme ;
+                                         owl:allValuesFrom fto:IdentifierEncodingScheme
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:hasIdentifierSource ;
+                                         owl:allValuesFrom fto:IdentifierSource
+                                       ] ;
+                       opla:isNativeTo "Identifier"^^rdfs:Literal ,
+                                       "IdentifierEncoding"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#IdentifierEncodingScheme
+fto:IdentifierEncodingScheme rdf:type owl:Class ;
+                             opla:isNativeTo "Identifier"^^rdfs:Literal ,
+                                             "IdentifierEncoding"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#IdentifierSource
+fto:IdentifierSource rdf:type owl:Class ;
+                     opla:isNativeTo "Identifier"^^rdfs:Literal ,
+                                     "IdentifierEncoding"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#IdentifierType
+fto:IdentifierType rdf:type owl:Class ;
+                   opla:isNativeTo "Identifier"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#InitialFix
+fto:InitialFix rdf:type owl:Class ;
+               rdfs:subClassOf fto:Fix .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#MaterialType
+fto:MaterialType rdf:type owl:Class ;
+                 opla:isNativeTo "TRU"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Observation
+fto:Observation rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty fto:hasUnit ;
+                                  owl:someValuesFrom fto:Unit
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty fto:hasValue ;
+                                  owl:someValuesFrom fto:Value
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty fto:producedAt ;
+                                  owl:someValuesFrom fto:ObservationEvent
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty fto:hasUnit ;
+                                  owl:allValuesFrom fto:Unit
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty fto:hasValue ;
+                                  owl:allValuesFrom fto:Value
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty fto:producedAt ;
+                                  owl:allValuesFrom fto:ObservationEvent
+                                ] ;
+                opla:isNativeTo "Measurement"^^rdfs:Literal ,
+                                "QuantityOfMaterial"^^rdfs:Literal ,
+                                "TRU"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#ObservationEvent
+fto:ObservationEvent rdf:type owl:Class ;
+                     rdfs:subClassOf fto:Event ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty fto:hasSTE ;
+                                       owl:someValuesFrom fto:SpatialtemporalExtent
                                      ] ,
                                      [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasContainer ;
-                                       owl:someValuesFrom owl:Thing
+                                       owl:onProperty fto:providesRole ;
+                                       owl:someValuesFrom [ owl:intersectionOf ( fto:BeingObservedRole
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                  ] ;
+                                                                                   owl:someValuesFrom fto:TRU
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ]
                                      ] ,
                                      [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasTemporalExtent ;
-                                       owl:someValuesFrom :TemporalExtent
+                                       owl:onProperty [ owl:inverseOf fto:producedAt
+                                                      ] ;
+                                       owl:someValuesFrom fto:Observation
                                      ] ,
                                      [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasContainee ;
-                                       owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                       owl:onClass [ rdf:type owl:Class ;
-                                                     owl:unionOf ( :Container
-                                                                   :TRU
-                                                                 )
-                                                   ]
+                                       owl:onProperty fto:hasFurtherDocumentation ;
+                                       owl:allValuesFrom fto:DocumentationSource
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty fto:providesRole ;
+                                       owl:allValuesFrom fto:ParticipantRole
                                      ] ;
-                     opla:isNativeTo "Container"^^rdfs:Literal .
+                     opla:isNativeTo "Event"^^rdfs:Literal ,
+                                     "QuantityOfMaterial"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Container
-:Container rdf:type owl:Class ;
-           rdfs:subClassOf [ rdf:type owl:Restriction ;
-                             owl:onProperty :follows ;
-                             owl:someValuesFrom :Trajectory
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasContainerType ;
-                             owl:someValuesFrom :ContainerType
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasIdentifier ;
-                             owl:someValuesFrom :Identifier
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :follows ;
-                             owl:allValuesFrom :Trajectory
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasIdentifier ;
-                             owl:allValuesFrom :Identifier
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :assumesRole ;
-                             owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                             owl:onClass :ParticipantRole
-                           ] ;
-           opla:isNativeTo "Container"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#OperatorRole
+fto:OperatorRole rdf:type owl:Class ;
+                 rdfs:subClassOf fto:ParticipantRole .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#ContainerType
-:ContainerType rdf:type owl:Class ;
-               opla:isNativeTo "Container"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#OwnerChangeEvent
+fto:OwnerChangeEvent rdf:type owl:Class ;
+                     rdfs:subClassOf fto:Event ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty fto:hasSTE ;
+                                       owl:someValuesFrom fto:SpatialtemporalExtent
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty fto:providesRole ;
+                                       owl:someValuesFrom [ owl:intersectionOf ( fto:SourceOwnerRole
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                  ] ;
+                                                                                   owl:someValuesFrom fto:Agent
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ]
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty fto:providesRole ;
+                                       owl:someValuesFrom [ owl:intersectionOf ( fto:TargetOwnerRole
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                  ] ;
+                                                                                   owl:someValuesFrom fto:Agent
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ]
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty fto:hasFurtherDocumentation ;
+                                       owl:allValuesFrom fto:DocumentationSource
+                                     ] ,
+                                     [ rdf:type owl:Restriction ;
+                                       owl:onProperty fto:providesRole ;
+                                       owl:allValuesFrom fto:ParticipantRole
+                                     ] ;
+                     opla:isNativeTo "Event"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#CustodyChangeEvent
-:CustodyChangeEvent rdf:type owl:Class ;
-                    rdfs:subClassOf :Event ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasSTE ;
-                                      owl:someValuesFrom :SpatialtemporalExtent
+###  http://dase.cs.ksu.edu/ontology/food-traceability#ParticipantRole
+fto:ParticipantRole rdf:type owl:Class ;
+                    rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                      owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                     ] ;
+                                      owl:maxCardinality "1"^^xsd:nonNegativeInteger
                                     ] ,
                                     [ rdf:type owl:Restriction ;
-                                      owl:onProperty :providesRole ;
-                                      owl:someValuesFrom [ owl:intersectionOf ( :SourceCustodianRole
-                                                                                [ rdf:type owl:Restriction ;
-                                                                                  owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                                 ] ;
-                                                                                  owl:someValuesFrom :Agent
-                                                                                ]
-                                                                              ) ;
-                                                           rdf:type owl:Class
-                                                         ]
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :providesRole ;
-                                      owl:someValuesFrom [ owl:intersectionOf ( :TargetCustodianRole
-                                                                                [ rdf:type owl:Restriction ;
-                                                                                  owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                                 ] ;
-                                                                                  owl:someValuesFrom :Agent
-                                                                                ]
-                                                                              ) ;
-                                                           rdf:type owl:Class
-                                                         ]
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasFurtherDocumentation ;
-                                      owl:allValuesFrom :DocumentationSource
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :providesRole ;
-                                      owl:allValuesFrom :ParticipantRole
+                                      owl:onProperty [ owl:inverseOf fto:providesRole
+                                                     ] ;
+                                      owl:maxCardinality "1"^^xsd:nonNegativeInteger
                                     ] ;
                     opla:isNativeTo "Event"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#DocumentationSource
-:DocumentationSource rdf:type owl:Class ;
-                     opla:isNativeTo "Event"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Place
+fto:Place rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:fallsWithin ;
+                            owl:someValuesFrom fto:SpatialtemporalExtent
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty fto:hasNext ;
+                            owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                            owl:onClass fto:Fix
+                          ] ;
+          opla:isNativeTo "Trajectory"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#EquipmentRole
-:EquipmentRole rdf:type owl:Class ;
-               rdfs:subClassOf :ParticipantRole .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#QuantityOfMaterial
+fto:QuantityOfMaterial rdf:type owl:Class ;
+                       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:ofMaterialType ;
+                                         owl:someValuesFrom fto:MaterialType
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:hasMeasurement ;
+                                         owl:allValuesFrom fto:Observation
+                                       ] ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty fto:ofMaterialType ;
+                                         owl:allValuesFrom fto:MaterialType
+                                       ] ;
+                       opla:isNativeTo "TRU"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Event
-:Event rdf:type owl:Class ;
-       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasSTE ;
-                         owl:someValuesFrom :SpatialtemporalExtent
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :providesRole ;
-                         owl:someValuesFrom :ParticipantRole
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasFurtherDocumentation ;
-                         owl:allValuesFrom :DocumentationSource
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :providesRole ;
-                         owl:allValuesFrom :ParticipantRole
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasPostcondition ;
-                         owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                         owl:onClass :ContainedInRelation
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasPrecondition ;
-                         owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                         owl:onClass :ContainedInRelation
-                       ] ;
-       opla:isNativeTo "Event"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#SourceCustodianRole
+fto:SourceCustodianRole rdf:type owl:Class ;
+                        rdfs:subClassOf fto:ParticipantRole ;
+                        opla:isNativeTo "CustodyChangeEvent"^^rdfs:Literal ,
+                                        "QuantityOfMaterial"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Fix
-:Fix rdf:type owl:Class ;
-     rdfs:subClassOf [ rdf:type owl:Restriction ;
-                       owl:onProperty :occursAt ;
-                       owl:someValuesFrom :Place
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :occursAt ;
-                       owl:someValuesFrom :Time
-                     ] ;
-     opla:isNativeTo "Trajectory"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#SourceOwnerRole
+fto:SourceOwnerRole rdf:type owl:Class ;
+                    rdfs:subClassOf fto:ParticipantRole ;
+                    opla:isNativeTo "OwnerChangeEvent"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Identifier
-:Identifier rdf:type owl:Class ;
-            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasIdentifierEncoding ;
-                              owl:someValuesFrom :IdentifierEncoding
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasIdentifierEncoding ;
-                              owl:allValuesFrom :IdentifierEncoding
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasIdentifierType ;
-                              owl:allValuesFrom :IdentifierType
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty [ owl:inverseOf :hasIdentifier
-                                             ] ;
-                              owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasStringRepresentation ;
-                              owl:someValuesFrom xsd:string
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasStringRepresentation ;
-                              owl:allValuesFrom xsd:string
-                            ] ;
-            opla:isNativeTo "Identifier"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#SourceRole
+fto:SourceRole rdf:type owl:Class ;
+               rdfs:subClassOf fto:ParticipantRole ;
+               opla:isNativeTo "MasterEvent"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#IdentifierEncoding
-:IdentifierEncoding rdf:type owl:Class ;
-                    rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasIdentifierSource ;
-                                      owl:someValuesFrom :IdentifierSource
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasIdentifierEncodingScheme ;
-                                      owl:allValuesFrom :IdentifierEncodingScheme
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasIdentifierSource ;
-                                      owl:allValuesFrom :IdentifierSource
-                                    ] ;
-                    opla:isNativeTo "Identifier"^^rdfs:Literal ,
-                                    "IdentifierEncoding"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#SpatialtemporalExtent
+fto:SpatialtemporalExtent rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#IdentifierEncodingScheme
-:IdentifierEncodingScheme rdf:type owl:Class ;
-                          opla:isNativeTo "Identifier"^^rdfs:Literal ,
-                                          "IdentifierEncoding"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TRU
+fto:TRU rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:consistsOf ;
+                          owl:someValuesFrom fto:QuantityOfMaterial
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:follows ;
+                          owl:someValuesFrom fto:Trajectory
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:hasIdentifier ;
+                          owl:someValuesFrom fto:Identifier
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty [ owl:inverseOf fto:hasContainee
+                                         ] ;
+                          owl:someValuesFrom fto:ContainedInRelation
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:assumesRole ;
+                          owl:allValuesFrom fto:ParticipantRole
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:consistsOf ;
+                          owl:allValuesFrom fto:QuantityOfMaterial
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:hasIdentifier ;
+                          owl:allValuesFrom fto:Identifier
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:partOf ;
+                          owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                          owl:onClass fto:TRU
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:predecessorOf ;
+                          owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                          owl:onClass fto:TRU
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty fto:consistsOf ;
+                          owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                        ] ;
+        opla:isNativeTo "QuantityOfMaterial"^^rdfs:Literal ,
+                        "TRU"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#IdentifierSource
-:IdentifierSource rdf:type owl:Class ;
-                  opla:isNativeTo "Identifier"^^rdfs:Literal ,
-                                  "IdentifierEncoding"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TargetCustodianRole
+fto:TargetCustodianRole rdf:type owl:Class ;
+                        rdfs:subClassOf fto:ParticipantRole ;
+                        opla:isNativeTo "CustodyChangeEvent"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#IdentifierType
-:IdentifierType rdf:type owl:Class ;
-                opla:isNativeTo "Identifier"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TargetOwnerRole
+fto:TargetOwnerRole rdf:type owl:Class ;
+                    rdfs:subClassOf fto:ParticipantRole ;
+                    opla:isNativeTo "OwnerChangeEvent"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#InitialFix
-:InitialFix rdf:type owl:Class ;
-            rdfs:subClassOf :Fix .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TargetRole
+fto:TargetRole rdf:type owl:Class ;
+               rdfs:subClassOf fto:ParticipantRole ;
+               opla:isNativeTo "MasterEvent"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#MaterialType
-:MaterialType rdf:type owl:Class ;
-              opla:isNativeTo "TRU"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TemporalExtent
+fto:TemporalExtent rdf:type owl:Class ;
+                   opla:isNativeTo "Container"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Observation
-:Observation rdf:type owl:Class ;
-             rdfs:subClassOf [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasUnit ;
-                               owl:someValuesFrom :Unit
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasValue ;
-                               owl:someValuesFrom :Value
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :producedAt ;
-                               owl:someValuesFrom :ObservationEvent
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasUnit ;
-                               owl:allValuesFrom :Unit
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :hasValue ;
-                               owl:allValuesFrom :Value
-                             ] ,
-                             [ rdf:type owl:Restriction ;
-                               owl:onProperty :producedAt ;
-                               owl:allValuesFrom :ObservationEvent
-                             ] ;
-             opla:isNativeTo "Measurement"^^rdfs:Literal ,
-                             "QuantityOfMaterial"^^rdfs:Literal ,
-                             "TRU"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TerminalFix
+fto:TerminalFix rdf:type owl:Class ;
+                rdfs:subClassOf fto:Fix .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#ObservationEvent
-:ObservationEvent rdf:type owl:Class ;
-                  rdfs:subClassOf :Event ,
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Time
+fto:Time rdf:type owl:Class ;
+         opla:isNativeTo "Trajectory"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Trajectory
+fto:Trajectory rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty fto:hasFix ;
+                                 owl:allValuesFrom fto:Fix
+                               ] ;
+               opla:isNativeTo "Trajectory"^^rdfs:Literal .
+
+
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TransferEvent
+fto:TransferEvent rdf:type owl:Class ;
+                  rdfs:subClassOf fto:Event ,
                                   [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasSTE ;
-                                    owl:someValuesFrom :SpatialtemporalExtent
+                                    owl:onProperty fto:hasPostcondition ;
+                                    owl:someValuesFrom fto:ContainedInRelation
                                   ] ,
                                   [ rdf:type owl:Restriction ;
-                                    owl:onProperty :providesRole ;
-                                    owl:someValuesFrom [ owl:intersectionOf ( :BeingObservedRole
+                                    owl:onProperty fto:hasPrecondition ;
+                                    owl:someValuesFrom fto:ContainedInRelation
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty fto:hasSTE ;
+                                    owl:someValuesFrom fto:SpatialtemporalExtent
+                                  ] ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty fto:providesRole ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( fto:SourceRole
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty [ owl:inverseOf :assumesRole
+                                                                                owl:onProperty [ owl:inverseOf fto:assumesRole
                                                                                                ] ;
-                                                                                owl:someValuesFrom :TRU
+                                                                                owl:someValuesFrom fto:TRU
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ]
                                   ] ,
                                   [ rdf:type owl:Restriction ;
-                                    owl:onProperty [ owl:inverseOf :producedAt
-                                                   ] ;
-                                    owl:someValuesFrom :Observation
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasFurtherDocumentation ;
-                                    owl:allValuesFrom :DocumentationSource
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :providesRole ;
-                                    owl:allValuesFrom :ParticipantRole
-                                  ] ;
-                  opla:isNativeTo "Event"^^rdfs:Literal ,
-                                  "QuantityOfMaterial"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#OperatorRole
-:OperatorRole rdf:type owl:Class ;
-              rdfs:subClassOf :ParticipantRole .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#OwnerChangeEvent
-:OwnerChangeEvent rdf:type owl:Class ;
-                  rdfs:subClassOf :Event ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasSTE ;
-                                    owl:someValuesFrom :SpatialtemporalExtent
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :providesRole ;
-                                    owl:someValuesFrom [ owl:intersectionOf ( :SourceOwnerRole
+                                    owl:onProperty fto:providesRole ;
+                                    owl:someValuesFrom [ owl:intersectionOf ( fto:TargetRole
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty [ owl:inverseOf :assumesRole
+                                                                                owl:onProperty [ owl:inverseOf fto:assumesRole
                                                                                                ] ;
-                                                                                owl:someValuesFrom :Agent
+                                                                                owl:someValuesFrom fto:TRU
                                                                               ]
                                                                             ) ;
                                                          rdf:type owl:Class
                                                        ]
                                   ] ,
                                   [ rdf:type owl:Restriction ;
-                                    owl:onProperty :providesRole ;
-                                    owl:someValuesFrom [ owl:intersectionOf ( :TargetOwnerRole
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                               ] ;
-                                                                                owl:someValuesFrom :Agent
-                                                                              ]
-                                                                            ) ;
-                                                         rdf:type owl:Class
-                                                       ]
+                                    owl:onProperty fto:hasFurtherDocumentation ;
+                                    owl:allValuesFrom fto:DocumentationSource
                                   ] ,
                                   [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasFurtherDocumentation ;
-                                    owl:allValuesFrom :DocumentationSource
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :providesRole ;
-                                    owl:allValuesFrom :ParticipantRole
+                                    owl:onProperty fto:providesRole ;
+                                    owl:allValuesFrom fto:SourceRole
                                   ] ;
                   opla:isNativeTo "Event"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#ParticipantRole
-:ParticipantRole rdf:type owl:Class ;
-                 rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                   owl:onProperty [ owl:inverseOf :assumesRole
-                                                  ] ;
-                                   owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty [ owl:inverseOf :providesRole
-                                                  ] ;
-                                   owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                                 ] ;
-                 opla:isNativeTo "Event"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TransformationActivity
+fto:TransformationActivity rdf:type owl:Class ;
+                           opla:isNativeTo "Event"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Place
-:Place rdf:type owl:Class ;
-       rdfs:subClassOf [ rdf:type owl:Restriction ;
-                         owl:onProperty :fallsWithin ;
-                         owl:someValuesFrom :SpatialtemporalExtent
-                       ] ,
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasNext ;
-                         owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                         owl:onClass :Fix
-                       ] ;
-       opla:isNativeTo "Trajectory"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#QuantityOfMaterial
-:QuantityOfMaterial rdf:type owl:Class ;
-                    rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                      owl:onProperty :ofMaterialType ;
-                                      owl:someValuesFrom :MaterialType
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :hasMeasurement ;
-                                      owl:allValuesFrom :Observation
-                                    ] ,
-                                    [ rdf:type owl:Restriction ;
-                                      owl:onProperty :ofMaterialType ;
-                                      owl:allValuesFrom :MaterialType
-                                    ] ;
-                    opla:isNativeTo "TRU"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#SourceCustodianRole
-:SourceCustodianRole rdf:type owl:Class ;
-                     rdfs:subClassOf :ParticipantRole ;
-                     opla:isNativeTo "CustodyChangeEvent"^^rdfs:Literal ,
-                                     "QuantityOfMaterial"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#SourceOwnerRole
-:SourceOwnerRole rdf:type owl:Class ;
-                 rdfs:subClassOf :ParticipantRole ;
-                 opla:isNativeTo "OwnerChangeEvent"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#SourceRole
-:SourceRole rdf:type owl:Class ;
-            rdfs:subClassOf :ParticipantRole ;
-            opla:isNativeTo "MasterEvent"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#SpatialtemporalExtent
-:SpatialtemporalExtent rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TRU
-:TRU rdf:type owl:Class ;
-     rdfs:subClassOf [ rdf:type owl:Restriction ;
-                       owl:onProperty :consistsOf ;
-                       owl:someValuesFrom :QuantityOfMaterial
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :follows ;
-                       owl:someValuesFrom :Trajectory
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :hasIdentifier ;
-                       owl:someValuesFrom :Identifier
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty [ owl:inverseOf :hasContainee
-                                      ] ;
-                       owl:someValuesFrom :ContainedInRelation
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :assumesRole ;
-                       owl:allValuesFrom :ParticipantRole
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :consistsOf ;
-                       owl:allValuesFrom :QuantityOfMaterial
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :hasIdentifier ;
-                       owl:allValuesFrom :Identifier
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :partOf ;
-                       owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                       owl:onClass :TRU
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :predecessorOf ;
-                       owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                       owl:onClass :TRU
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :consistsOf ;
-                       owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                     ] ;
-     opla:isNativeTo "QuantityOfMaterial"^^rdfs:Literal ,
-                     "TRU"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TargetCustodianRole
-:TargetCustodianRole rdf:type owl:Class ;
-                     rdfs:subClassOf :ParticipantRole ;
-                     opla:isNativeTo "CustodyChangeEvent"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TargetOwnerRole
-:TargetOwnerRole rdf:type owl:Class ;
-                 rdfs:subClassOf :ParticipantRole ;
-                 opla:isNativeTo "OwnerChangeEvent"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TargetRole
-:TargetRole rdf:type owl:Class ;
-            rdfs:subClassOf :ParticipantRole ;
-            opla:isNativeTo "MasterEvent"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TemporalExtent
-:TemporalExtent rdf:type owl:Class ;
-                opla:isNativeTo "Container"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TerminalFix
-:TerminalFix rdf:type owl:Class ;
-             rdfs:subClassOf :Fix .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Time
-:Time rdf:type owl:Class ;
-      opla:isNativeTo "Trajectory"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Trajectory
-:Trajectory rdf:type owl:Class ;
-            rdfs:subClassOf [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasFix ;
-                              owl:allValuesFrom :Fix
-                            ] ;
-            opla:isNativeTo "Trajectory"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TransferEvent
-:TransferEvent rdf:type owl:Class ;
-               rdfs:subClassOf :Event ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasPostcondition ;
-                                 owl:someValuesFrom :ContainedInRelation
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasPrecondition ;
-                                 owl:someValuesFrom :ContainedInRelation
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasSTE ;
-                                 owl:someValuesFrom :SpatialtemporalExtent
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :providesRole ;
-                                 owl:someValuesFrom [ owl:intersectionOf ( :SourceRole
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                            ] ;
-                                                                             owl:someValuesFrom :TRU
-                                                                           ]
-                                                                         ) ;
-                                                      rdf:type owl:Class
-                                                    ]
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :providesRole ;
-                                 owl:someValuesFrom [ owl:intersectionOf ( :TargetRole
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                            ] ;
-                                                                             owl:someValuesFrom :TRU
-                                                                           ]
-                                                                         ) ;
-                                                      rdf:type owl:Class
-                                                    ]
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasFurtherDocumentation ;
-                                 owl:allValuesFrom :DocumentationSource
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :providesRole ;
-                                 owl:allValuesFrom :SourceRole
-                               ] ;
-               opla:isNativeTo "Event"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TransformationActivity
-:TransformationActivity rdf:type owl:Class ;
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TransformationEvent
+fto:TransformationEvent rdf:type owl:Class ;
+                        rdfs:subClassOf fto:Event ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasPostcondition ;
+                                          owl:someValuesFrom fto:ContainedInRelation
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasPrecondition ;
+                                          owl:someValuesFrom fto:ContainedInRelation
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasSTE ;
+                                          owl:someValuesFrom fto:SpatialtemporalExtent
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:providesRole ;
+                                          owl:someValuesFrom [ owl:intersectionOf ( fto:SourceRole
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                     ] ;
+                                                                                      owl:someValuesFrom fto:TRU
+                                                                                    ]
+                                                                                  ) ;
+                                                               rdf:type owl:Class
+                                                             ]
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:providesRole ;
+                                          owl:someValuesFrom [ owl:intersectionOf ( fto:TargetRole
+                                                                                    [ rdf:type owl:Restriction ;
+                                                                                      owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                     ] ;
+                                                                                      owl:someValuesFrom fto:TRU
+                                                                                    ]
+                                                                                  ) ;
+                                                               rdf:type owl:Class
+                                                             ]
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty [ owl:inverseOf fto:occursAt
+                                                         ] ;
+                                          owl:someValuesFrom fto:TransformationActivity
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:hasFurtherDocumentation ;
+                                          owl:allValuesFrom fto:DocumentationSource
+                                        ] ,
+                                        [ rdf:type owl:Restriction ;
+                                          owl:onProperty fto:providesRole ;
+                                          owl:allValuesFrom fto:SourceRole
+                                        ] ;
                         opla:isNativeTo "Event"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TransformationEvent
-:TransformationEvent rdf:type owl:Class ;
-                     rdfs:subClassOf :Event ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasPostcondition ;
-                                       owl:someValuesFrom :ContainedInRelation
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasPrecondition ;
-                                       owl:someValuesFrom :ContainedInRelation
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasSTE ;
-                                       owl:someValuesFrom :SpatialtemporalExtent
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :providesRole ;
-                                       owl:someValuesFrom [ owl:intersectionOf ( :SourceRole
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                                  ] ;
-                                                                                   owl:someValuesFrom :TRU
-                                                                                 ]
-                                                                               ) ;
-                                                            rdf:type owl:Class
-                                                          ]
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :providesRole ;
-                                       owl:someValuesFrom [ owl:intersectionOf ( :TargetRole
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                                  ] ;
-                                                                                   owl:someValuesFrom :TRU
-                                                                                 ]
-                                                                               ) ;
-                                                            rdf:type owl:Class
-                                                          ]
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty [ owl:inverseOf :occursAt
-                                                      ] ;
-                                       owl:someValuesFrom :TransformationActivity
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :hasFurtherDocumentation ;
-                                       owl:allValuesFrom :DocumentationSource
-                                     ] ,
-                                     [ rdf:type owl:Restriction ;
-                                       owl:onProperty :providesRole ;
-                                       owl:allValuesFrom :SourceRole
-                                     ] ;
-                     opla:isNativeTo "Event"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#TransportEvent
+fto:TransportEvent rdf:type owl:Class ;
+                   rdfs:subClassOf fto:Event ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty fto:hasSTE ;
+                                     owl:someValuesFrom fto:SpatialtemporalExtent
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty fto:providesRole ;
+                                     owl:someValuesFrom [ owl:intersectionOf ( fto:BeingShippedRole
+                                                                               [ rdf:type owl:Restriction ;
+                                                                                 owl:onProperty [ owl:inverseOf fto:assumesRole
+                                                                                                ] ;
+                                                                                 owl:someValuesFrom fto:TRU
+                                                                               ]
+                                                                             ) ;
+                                                          rdf:type owl:Class
+                                                        ]
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty fto:hasFurtherDocumentation ;
+                                     owl:allValuesFrom fto:DocumentationSource
+                                   ] ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty fto:providesRole ;
+                                     owl:allValuesFrom fto:ParticipantRole
+                                   ] ;
+                   opla:isNativeTo "Event"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#TransportEvent
-:TransportEvent rdf:type owl:Class ;
-                rdfs:subClassOf :Event ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasSTE ;
-                                  owl:someValuesFrom :SpatialtemporalExtent
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :providesRole ;
-                                  owl:someValuesFrom [ owl:intersectionOf ( :BeingShippedRole
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty [ owl:inverseOf :assumesRole
-                                                                                             ] ;
-                                                                              owl:someValuesFrom :TRU
-                                                                            ]
-                                                                          ) ;
-                                                       rdf:type owl:Class
-                                                     ]
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasFurtherDocumentation ;
-                                  owl:allValuesFrom :DocumentationSource
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :providesRole ;
-                                  owl:allValuesFrom :ParticipantRole
-                                ] ;
-                opla:isNativeTo "Event"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Unit
+fto:Unit rdf:type owl:Class ;
+         opla:isNativeTo "Trajectory"^^rdfs:Literal .
 
 
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Unit
-:Unit rdf:type owl:Class ;
-      opla:isNativeTo "Trajectory"^^rdfs:Literal .
-
-
-###  http://www.semanticweb.org/abhia/ontologies/2020/6/untitled-ontology-420#Value
-:Value rdf:type owl:Class ;
-       opla:isNativeTo "Trajectory"^^rdfs:Literal .
+###  http://dase.cs.ksu.edu/ontology/food-traceability#Value
+fto:Value rdf:type owl:Class ;
+          opla:isNativeTo "Trajectory"^^rdfs:Literal .
 
 
 ###  http://www.w3.org/2002/07/owl#Thing
 owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasContainer ;
-                            owl:allValuesFrom :Container
+                            owl:onProperty fto:hasContainer ;
+                            owl:allValuesFrom fto:Container
                           ] ,
                           [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasContainerType ;
-                            owl:allValuesFrom :ContainerType
+                            owl:onProperty fto:hasContainerType ;
+                            owl:allValuesFrom fto:ContainerType
                           ] ,
                           [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasSTE ;
-                            owl:allValuesFrom :SpatialtemporalExtent
+                            owl:onProperty fto:hasSTE ;
+                            owl:allValuesFrom fto:SpatialtemporalExtent
                           ] ,
                           [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasTemporalExtent ;
-                            owl:allValuesFrom :TemporalExtent
+                            owl:onProperty fto:hasTemporalExtent ;
+                            owl:allValuesFrom fto:TemporalExtent
                           ] .
 
 
-[ opla-sd:entityPositionX "72.19126456480438"^^xsd:double ;
-  opla-sd:entityPositionY "135.5062863869187"^^xsd:double ;
+[ opla-sd:entityPositionX "100.86715978899686"^^xsd:double ;
+  opla-sd:entityPositionY "205.35189867627784"^^xsd:double ;
   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
 ] .
+
+[ opla-sd:entityPositionX "52.039626014073235"^^xsd:double ;
+   opla-sd:entityPositionY "74.92617725513503"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "222.08489952761985"^^xsd:double ;
+   opla-sd:entityPositionY "201.86445804235834"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "189.74372082527915"^^xsd:double ;
+   opla-sd:entityPositionY "50.190892297142625"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "257.10537492218356"^^xsd:double ;
+   opla-sd:entityPositionY "71.636089647181"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "639.7708678402034"^^xsd:double ;
+   opla-sd:entityPositionY "749.8463169430265"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "489.8446838388984"^^xsd:double ;
+   opla-sd:entityPositionY "599.673072352213"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "174.80360084912687"^^xsd:double ;
+   opla-sd:entityPositionY "88.59181091307714"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "274.4232564960968"^^xsd:double ;
+   opla-sd:entityPositionY "258.1247031159831"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "139.94557949566808"^^xsd:double ;
+   opla-sd:entityPositionY "630.4686161286993"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "69.92331988824203"^^xsd:double ;
+   opla-sd:entityPositionY "218.31284474010513"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "208.1389519607959"^^xsd:double ;
+   opla-sd:entityPositionY "198.53304207067671"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "609.5112155850559"^^xsd:double ;
+   opla-sd:entityPositionY "429.5349651702779"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "569.574027135783"^^xsd:double ;
+   opla-sd:entityPositionY "40.00855775984995"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "262.0807637601403"^^xsd:double ;
+   opla-sd:entityPositionY "18.375893200697057"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "218.94742863918378"^^xsd:double ;
+   opla-sd:entityPositionY "104.74912259582473"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "31.931641535768414"^^xsd:double ;
+   opla-sd:entityPositionY "169.9284248002792"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "295.83985969487617"^^xsd:double ;
+   opla-sd:entityPositionY "5.955136862177525"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "25.90327722807661"^^xsd:double ;
+   opla-sd:entityPositionY "48.85941182998919"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "116.97371931285606"^^xsd:double ;
+   opla-sd:entityPositionY "287.5275369502491"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "72.19126456480438"^^xsd:double ;
+   opla-sd:entityPositionY "135.5062863869187"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
+
+[ opla-sd:entityPositionX "90.46064023386144"^^xsd:double ;
+   opla-sd:entityPositionY "157.7476696624958"^^xsd:double ;
+   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
+ ] .
 
 [ opla-sd:entityPositionX "11.638550242367728"^^xsd:double ;
    opla-sd:entityPositionY "168.36535038273246"^^xsd:double ;
@@ -962,182 +1068,77 @@ owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
    rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
  ] .
 
-[ opla-sd:entityPositionX "100.86715978899686"^^xsd:double ;
-   opla-sd:entityPositionY "205.35189867627784"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "52.039626014073235"^^xsd:double ;
-   opla-sd:entityPositionY "74.92617725513503"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "222.08489952761985"^^xsd:double ;
-   opla-sd:entityPositionY "201.86445804235834"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "189.74372082527915"^^xsd:double ;
-   opla-sd:entityPositionY "50.190892297142625"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "257.10537492218356"^^xsd:double ;
-   opla-sd:entityPositionY "71.636089647181"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "639.7708678402034"^^xsd:double ;
-   opla-sd:entityPositionY "749.8463169430265"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "489.8446838388984"^^xsd:double ;
-   opla-sd:entityPositionY "599.673072352213"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "174.80360084912687"^^xsd:double ;
-   opla-sd:entityPositionY "88.59181091307714"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "274.4232564960968"^^xsd:double ;
-   opla-sd:entityPositionY "258.1247031159831"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "139.94557949566808"^^xsd:double ;
-   opla-sd:entityPositionY "630.4686161286993"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "69.92331988824203"^^xsd:double ;
-   opla-sd:entityPositionY "218.31284474010513"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "208.1389519607959"^^xsd:double ;
-   opla-sd:entityPositionY "198.53304207067671"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "609.5112155850559"^^xsd:double ;
-   opla-sd:entityPositionY "429.5349651702779"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "569.574027135783"^^xsd:double ;
-   opla-sd:entityPositionY "40.00855775984995"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "262.0807637601403"^^xsd:double ;
-   opla-sd:entityPositionY "18.375893200697057"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "218.94742863918378"^^xsd:double ;
-   opla-sd:entityPositionY "104.74912259582473"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "31.931641535768414"^^xsd:double ;
-   opla-sd:entityPositionY "169.9284248002792"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "295.83985969487617"^^xsd:double ;
-   opla-sd:entityPositionY "5.955136862177525"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "25.90327722807661"^^xsd:double ;
-   opla-sd:entityPositionY "48.85941182998919"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "116.97371931285606"^^xsd:double ;
-   opla-sd:entityPositionY "287.5275369502491"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
-[ opla-sd:entityPositionX "90.46064023386144"^^xsd:double ;
-   opla-sd:entityPositionY "157.7476696624958"^^xsd:double ;
-   rdfs:comment "This is an entity positioning annotation generated by CoModIDE (https://comodide.com/). Removing this annotation will break rendering the CoModIDE schema diagram view."@en
- ] .
-
 #################################################################
 #    General axioms
 #################################################################
 
 [ rdf:type owl:Restriction ;
-   owl:onProperty :hasFix ;
-   owl:someValuesFrom :Fix ;
-   rdfs:subClassOf :Trajectory
+   owl:onProperty fto:hasFix ;
+   owl:someValuesFrom fto:Fix ;
+   rdfs:subClassOf fto:Trajectory
  ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasIdentifierEncoding ;
-  owl:someValuesFrom :IdentifierEncoding ;
-  rdfs:subClassOf :Identifier
+  owl:onProperty fto:hasIdentifierEncoding ;
+  owl:someValuesFrom fto:IdentifierEncoding ;
+  rdfs:subClassOf fto:Identifier
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasIdentifierEncodingScheme ;
-  owl:someValuesFrom :IdentifierEncodingScheme ;
-  rdfs:subClassOf :IdentifierEncoding
+  owl:onProperty fto:hasIdentifierEncodingScheme ;
+  owl:someValuesFrom fto:IdentifierEncodingScheme ;
+  rdfs:subClassOf fto:IdentifierEncoding
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasIdentifierSource ;
-  owl:someValuesFrom :IdentifierSource ;
-  rdfs:subClassOf :IdentifierEncoding
+  owl:onProperty fto:hasIdentifierSource ;
+  owl:someValuesFrom fto:IdentifierSource ;
+  rdfs:subClassOf fto:IdentifierEncoding
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasIdentifierType ;
-  owl:someValuesFrom :IdentifierType ;
-  rdfs:subClassOf :Identifier
+  owl:onProperty fto:hasIdentifierType ;
+  owl:someValuesFrom fto:IdentifierType ;
+  rdfs:subClassOf fto:Identifier
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasValue ;
-  owl:someValuesFrom :Value ;
-  rdfs:subClassOf :Observation
+  owl:onProperty fto:hasValue ;
+  owl:someValuesFrom fto:Value ;
+  rdfs:subClassOf fto:Observation
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :ofMaterialType ;
-  owl:someValuesFrom :MaterialType ;
-  rdfs:subClassOf :QuantityOfMaterial
+  owl:onProperty fto:ofMaterialType ;
+  owl:someValuesFrom fto:MaterialType ;
+  rdfs:subClassOf fto:QuantityOfMaterial
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasContainee ;
+  owl:onProperty fto:hasContainee ;
   owl:allValuesFrom owl:Thing ;
-  rdfs:subClassOf :ContainedInRelation
+  rdfs:subClassOf fto:ContainedInRelation
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasContainer ;
+  owl:onProperty fto:hasContainer ;
   owl:allValuesFrom owl:Thing ;
-  rdfs:subClassOf :ContainedInRelation
+  rdfs:subClassOf fto:ContainedInRelation
 ] .
 
 
 [ rdf:type owl:Restriction ;
-  owl:onProperty :hasContainerType ;
+  owl:onProperty fto:hasContainerType ;
   owl:allValuesFrom owl:Thing ;
-  rdfs:subClassOf :Container
+  rdfs:subClassOf fto:Container
 ] .
 
 
